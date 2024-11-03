@@ -16,7 +16,7 @@ import F from '../../public/Fotos/F.jpg';
 import G from '../../public/Fotos/G.jpg';
 import H from '../../public/Fotos/H.jpg';
 import J from '../../public/Fotos/J.jpg';
-import K from '../../public/Fotos/k.jpg';
+import carola from '../../public/Fotos/carola.jpg';
 import O from '../../public/Fotos/o.jpg';
 
 export default function Proyectos() {
@@ -51,7 +51,7 @@ export default function Proyectos() {
 
                 <div className="twoImage">
                     <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={C} alt="Make up Artist" />
-                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={K} alt="Make up Artist" />
+                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={carola} alt="Make up Artist" />
                 </div>
                 
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={E} alt="Make Up Artist" />
