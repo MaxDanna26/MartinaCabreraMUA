@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../CSS/AboutMe.css';
+import '../CSS/aboutMe.css';
 
 export default function AboutMe(){
 return(
