@@ -1,0 +1,55 @@
+.titleProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: rgb(247, 247, 247);
+}
+
+.scrollActive .h1, .scrollActive .h2 {
+    transform: translateY(40px);
+}
+
+.scrollActive .h1, .scrollActive .h2 {
+    transform: translateY(-40px);
+}
+
+.h1 {
+    font-size: 2.3rem;
+    font-family: 'Bowlby One', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    transition: transform 0.9s ease;
+}
+
+.h2 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    transition: transform 0.8s ease;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.twoImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.2rem;
+    width: 50%;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    transition: transform 0.9s ease; /* Añadir transición para suavizar el movimiento */
+}

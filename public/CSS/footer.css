@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
+
+.correo{
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+.redesFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 2rem;
+}

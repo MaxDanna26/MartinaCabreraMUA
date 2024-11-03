@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Logo{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 175px;
+    height: 175px;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+

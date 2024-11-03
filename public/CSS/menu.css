@@ -1,0 +1,55 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  background-color: #FADADD;
+  border: 1px solid #f553cc;
+  border-radius: 4px;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 60%;
+  height: 600px;
+}
+
+.Link{
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav li {
+  font-size: 1.4rem;
+  padding: 10px;
+  border-bottom: 1px solid #f553cc;
+  list-style: none;
+  transition: 0.5s ease-out;
+  }
+  
+nav li:last-child {
+  border-bottom: none;
+}
+
+.points{
+  align-self: flex-end;
+  margin-right: 0.8rem;
+}
+
+.dropDown{
+  margin: 1rem;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 3rem 0 0 2rem;
+}
+
+  
