@@ -26,12 +26,15 @@ return(
             Hello everyone!
         </h4>
 
-        <p>
-            Soy Martina Cabrera, maquilladora para Givenchy en <strong>Barcelona.</strong>
-            Desde que tengo memoria, siempre he estado fascinada por el arte y la creatividad, me la pasaba soñando con algún día ser
-        </p>
+        <div>
+            <p>
+                Soy Martina Cabrera, maquilladora para Givenchy en <strong>Barcelona.</strong>
+                Desde que tengo memoria, siempre he estado fascinada por el arte y la creatividad, me la pasaba soñando con algún día ser
+            </p>
 
-        <h4 className="artist">artista.</h4>
+            <h4 className="artist">ARTISTA.</h4>
+        </div>
+
 
         <p>
             Con el tiempo, descubrí que mi verdadera pasión era el <strong>maquillaje</strong>:

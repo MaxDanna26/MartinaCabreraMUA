@@ -17,8 +17,9 @@ h4{
 
 .artist{
     margin: 0;
-    display: inline-block;
+    display: block;
 }
+
 
 strong{
     font-family: "Shadows Into Light";
