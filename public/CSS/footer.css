@@ -4,13 +4,16 @@ footer{
     justify-content: center;
     align-items: center;
 
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     color: white;
+    font-family: 'Merriweather', serif;
 }
 
-.correo{
+.correo a{
     text-decoration: underline;
     font-size: 1.4rem;
+    font-family: bold;
+    color: white;
 }
 
 .redesFooter{
@@ -18,4 +21,13 @@ footer{
     flex-direction: row;
     gap: 1rem;
     margin: 2rem;
+}
+
+span{
+    color: rgb(105, 103, 103);
+    font-size: 0.7rem;
+}
+
+.contact{
+    font-size: 0.8rem;
 }

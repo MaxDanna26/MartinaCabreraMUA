@@ -3,10 +3,45 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Merriweather', serif;
+    padding: 1rem;
     gap: 1rem;
-    margin-bottom: 3rem ;
+    line-height: 1.4;
+    text-align: center;
 }
 
 h4{
     margin: 1rem;
+    font-family: 'Bowlby One', sans-serif;
+}
+
+.artist{
+    margin: 0;
+    display: inline-block;
+}
+
+strong{
+    font-family: "Shadows Into Light";
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    color: black;
+}
+
+.fraseCentral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fa7387;
+    width: 100%;
+    margin: 0;
+}
+
+.fraseCentral h3{
+    margin: 0.5rem;
+}
+
+.aboutMeImage{
+    width: 100%;
+    height: auto;
 }
