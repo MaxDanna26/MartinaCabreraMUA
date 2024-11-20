@@ -42,6 +42,12 @@ export default function Proyectos() {
             </div>
             <div className="galeria">
 
+                
+            <div className="twoImage">
+                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={P} alt="Make up Artist" />
+                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={Q} alt="Make up Artist" />
+                </div>
+
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={J} alt="Make Up Artist" />
                 
                 <div className="twoImage">
@@ -64,11 +70,6 @@ export default function Proyectos() {
                 </div>
                 
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={F} alt="Make Up Artist" />
-
-                <div className="twoImage">
-                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={P} alt="Make up Artist" />
-                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={Q} alt="Make up Artist" />
-                </div>
                 
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={D} alt="Make Up Artist" />
             </div>
