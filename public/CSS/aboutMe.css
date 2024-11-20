@@ -11,19 +11,14 @@
 }
 
 h4{
+    font-size: 1.4rem;
     margin: 1rem;
     font-family: 'Bowlby One', sans-serif;
 }
 
-.artist{
-    margin: 0;
-    display: block;
-}
-
-
 strong{
     font-family: "Shadows Into Light";
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     letter-spacing: 0.2rem;
     color: black;
 }
@@ -36,13 +31,23 @@ strong{
     background-color: #fa7387;
     width: 100%;
     margin: 0;
+    border-radius: 25px;
 }
 
 .fraseCentral h3{
+    font-size: 1.4rem;
     margin: 0.5rem;
 }
 
 .aboutMeImage{
     width: 100%;
     height: auto;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.lastFrase{
+    font-size: 1.1rem;
 }

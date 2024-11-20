@@ -21,14 +21,14 @@ return (
         </p>
 
         <div className='redesFooter'>
-            <FontAwesomeIcon icon={faInstagram}
+            <a href="https://www.instagram.com/martinacabreramua?igsh=ajB4bGhrcGVpZWcz "><FontAwesomeIcon icon={faInstagram}
             className={isHover ? 'animate__animated animate__fadeInUp' : 'animate__animated'}
             onMouseEnter={() => setIsHover(true)}
-            onMouseLeave={() => setIsHover(false)}  size="2x" style={{color: "#11114"}}/>
+            onMouseLeave={() => setIsHover(false)}  size="2x" style={{color: "#11114"}}/></a>
 
-            <FontAwesomeIcon className={isHover ? 'animate__animated animate__fadeInUp' : 'animate__animated'}
+            <a href=""><FontAwesomeIcon className={isHover ? 'animate__animated animate__fadeInUp' : 'animate__animated'}
             onMouseEnter={() => setIsHover(true)}
-            onMouseLeave={() => setIsHover(false)}  icon={faSquareXTwitter} size="2x" style={{color: "white"}} />
+            onMouseLeave={() => setIsHover(false)}  icon={faSquareXTwitter} size="2x" style={{color: "white"}} /></a>
         </div>
 
         <span>© Martina Cabrera - Make up Artist</span>

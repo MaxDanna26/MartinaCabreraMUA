@@ -41,9 +41,10 @@ return(
         </ul>
 
         <div className='redes'>
-            <FontAwesomeIcon icon={faInstagram} beat size="2x" style={{color: "#111114",}}/>
 
-            <FontAwesomeIcon icon={faSquareXTwitter} beat size="2x"  style={{color: "#111114",}} />
+            <a href="https://www.instagram.com/martinacabreramua?igsh=ajB4bGhrcGVpZWcz "><FontAwesomeIcon icon={faInstagram} beat size="2x" style={{color: "#111114",}}/></a>
+
+            <a href=""><FontAwesomeIcon icon={faSquareXTwitter} beat size="2x"  style={{color: "#111114",}} /></a>
         </div>
     </nav>
 
