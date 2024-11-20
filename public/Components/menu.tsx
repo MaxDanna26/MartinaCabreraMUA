@@ -36,7 +36,7 @@ return(
             </li>
 
             <li>
-                <Link className='Link animate__animated animate__fadeInRight' href="/">Contactame!</Link>
+                <Link className='Link animate__animated animate__fadeInRight' href="/Contact">Contactame!</Link>
             </li>
         </ul>
 

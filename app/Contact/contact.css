@@ -1,0 +1,66 @@
+.getContact{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Shadows Into Light";
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    margin: 1rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    gap: 1rem;
+  }
+  
+  /* Estilos de las etiquetas */
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Inputs de texto y textarea */
+  form input[type="text"],
+  form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #FADADD;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  form input[type="text"]:focus,
+  form textarea:focus {
+    border-color: #f553cc;
+    outline: none;
+  }
+  
+  form textarea {
+    resize: none;
+  }
+  
+  /* Botón de enviar */
+  form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #f553cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #f553cc;
+  }
+  
+.getIn{
+    display: flex;
+    flex-direction: row;
+}

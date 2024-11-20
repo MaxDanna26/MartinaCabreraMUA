@@ -18,6 +18,8 @@ import H from '../../public/Fotos/H.jpg';
 import J from '../../public/Fotos/J.jpg';
 import carola from '../../public/Fotos/carola.jpg';
 import O from '../../public/Fotos/o.jpg';
+import P from '../../public/Fotos/Portada.jpg'
+import Q from '../../public/Fotos/Portada2.jpg'
 
 export default function Proyectos() {
     const [scrollY, setScrollY] = useState(0);
@@ -62,6 +64,11 @@ export default function Proyectos() {
                 </div>
                 
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={F} alt="Make Up Artist" />
+
+                <div className="twoImage">
+                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={P} alt="Make up Artist" />
+                    <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={Q} alt="Make up Artist" />
+                </div>
                 
                 <Image className="picture" style={{ transform: `translateY(${-scrollY * 0.06}px)` }} src={D} alt="Make Up Artist" />
             </div>
