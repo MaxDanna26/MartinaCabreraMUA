@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <>
 
-    <Link href="/"><Image className='Logo' src={Logo} alt="Logo Make Up Artist Barcelona"></Image></Link>
+    <Link href="/"><Image className='Logo'  priority={true} src={Logo} alt="Logo Make Up Artist Barcelona"></Image></Link>
 
     <header>
 

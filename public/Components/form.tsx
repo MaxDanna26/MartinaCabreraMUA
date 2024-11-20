@@ -30,33 +30,36 @@ export default function Form() {
 
   return (
       <form onSubmit={handleSubmit}>
-          <label>Nombre:</label>
+          <label htmlFor='name'>Nombre:</label>
           <input
             type="text"
-            name="name"
+            name="name" 
             value={formData.name}
             onChange={handleChange}
             placeholder="Tu nombre"
+            autoComplete="name"
             required
           />
 
 
-          <label>Asunto:</label>
+          <label htmlFor='subject'>Asunto:</label>
           <input
             type="text"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
             placeholder="Asunto del mensaje"
+            autoComplete="off"
             required
           />
 
-          <label>Mensaje:</label>
+          <label htmlFor='message'>Mensaje:</label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             placeholder="Escribe tu mensaje aquí"
+            autoComplete="off"
             required
           ></textarea>
 
