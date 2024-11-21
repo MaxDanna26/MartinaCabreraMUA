@@ -2,36 +2,42 @@
     text-align: center;
     font-size: 2.2rem;
     font-family: "Shadows Into Light";
+    margin: 0;
+}
+
+.get_Contact{
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0;
+  font-family: 'Bowlby One', sans-serif;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+
     font-family: 'Merriweather', serif;
-    width: 100%;
+    width: 90%;
     margin: 1rem;
-    border-radius: 10px;
     margin-bottom: 3rem;
     gap: 1rem;
   }
   
-  /* Estilos de las etiquetas */
   form label {
     font-weight: bold;
     margin-bottom: 5px;
     display: block;
   }
   
-  /* Inputs de texto y textarea */
   form input[type="text"],
   form textarea {
     padding: 10px;
     font-size: 1rem;
-    border: 2px solid #FADADD;
-    border-radius: 5px;
+    border: none;
+    background-color:  rgb(247, 247, 247);
+    border-bottom: 2px solid #f553cc; 
     transition: border-color 0.3s;
+    text-align: center;
   }
   
   form input[type="text"]:focus,
@@ -41,6 +47,7 @@ form {
   }
   
   form textarea {
+    height: 150px;
     resize: none;
   }
   

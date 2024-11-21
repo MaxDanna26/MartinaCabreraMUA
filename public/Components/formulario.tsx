@@ -20,11 +20,10 @@ export default function Form() {
     const { name, subject, message } = formData;
 
     // Construye el enlace mailto
-    const mailtoLink = `mailto:martinacabreramua89@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-      `Nombre: ${name}\n\nMensaje: ${message}`
+    const mailtoLink = `mailto:martinacabreramua89@gmail.com?subject=${encodeURIComponent(name + " " + "-" + " " + subject)}&body=${encodeURIComponent(
+      `${message}`
     )}`;
 
-    // Redirige al cliente de correo
     window.location.href = mailtoLink;
   };
 
@@ -33,6 +32,7 @@ export default function Form() {
           <label htmlFor='name'>Nombre:</label>
           <input
             type="text"
+            id="name" 
             name="name" 
             value={formData.name}
             onChange={handleChange}
@@ -45,6 +45,7 @@ export default function Form() {
           <label htmlFor='subject'>Asunto:</label>
           <input
             type="text"
+            id="subject"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
@@ -56,6 +57,7 @@ export default function Form() {
           <label htmlFor='message'>Mensaje:</label>
           <textarea
             name="message"
+            id="message"
             value={formData.message}
             onChange={handleChange}
             placeholder="Escribe tu mensaje aquí"

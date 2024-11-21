@@ -19,7 +19,8 @@ export default function Contact(){
     return (
     <>
         <Header></Header>
-        <h1 className="getContact">GET IN TOUCH</h1>
+        <h1 className="getContact">GET IN</h1>
+        <h1 className="get_Contact">TOUCH</h1>
         <Form></Form>
         <Footer></Footer>
     </>)
