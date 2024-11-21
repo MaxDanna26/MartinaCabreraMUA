@@ -29,8 +29,8 @@ form {
     display: block;
   }
   
-  form input[type="text"],
-  form textarea {
+  form input,
+  form textarea, select {
     padding: 10px;
     font-size: 1rem;
     border: none;
